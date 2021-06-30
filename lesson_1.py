@@ -86,8 +86,14 @@ print(2 < 1 or 5 >= 5) # prints True
 print(2 < 1 or 5 > 5) # prints False
 
 
-# A computer is a machine that takes input, processes that input in
+# A computer is a machine that takes input, stores it, processes it in
 #     some way, and produces some output.
+
+# We know how to do each of these steps:
+# Input: input()
+# Storage: variable = input()
+# Processing: variable = variable * 2
+# Output: print(variable)
 
 
 
