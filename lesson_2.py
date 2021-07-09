@@ -92,8 +92,11 @@ else:
 # Write a simple chatbot. You can support whatever commands you like.
 # Here's a sample of how it could work:
 
-# Hi, I'm Mr. Chips, the chatbot! I can reverse phrases! What's the word you'd like to come second?
+# Hi, I'm Mr. Chips, the chatbot! I can reverse phrases or keep them the same!
+# Which would you like to do ("keep" or "reverse")?
+# reverse
+# What's the first word in your phrase?
 # Hello
-# What's the word you'd like to come first?
+# What's the second word in your phrase?
 # World
 # Your output is: World Hello

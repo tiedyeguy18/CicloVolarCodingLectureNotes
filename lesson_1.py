@@ -9,7 +9,7 @@ print("woohoo!")
 print(5)
 
 
-# we can use Python as a calulator
+# we can use Python as a calculator
 print(2 + 7) # prints 9
 print(3 * 7) # prints 21
 print(12 - 21) # prints -9
@@ -95,7 +95,7 @@ print(2 < 1 or 5 > 5) # prints False
 # Processing: variable = variable * 2
 # Output: print(variable)
 
-
+print(f"uih {dime_value}")
 
 # Practice:
 
@@ -104,6 +104,6 @@ print(2 < 1 or 5 > 5) # prints False
 
 # Hi, my name is Jamin and I like to code. What's your name?
 # Kaladin
-# Hi, Kaladin! What do you like to do?
+# Hi Kaladin! What do you like to do?
 # be sad
 # Cool, I like to be sad too!
