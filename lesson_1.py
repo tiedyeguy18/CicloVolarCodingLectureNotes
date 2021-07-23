@@ -78,7 +78,7 @@ print(user_pick + 1) # gives us an error because we can't add a number to a stri
 print(2 > 1) # prints True
 print(5 <= 5) # prints True
 print(5 == 5) # prints True
-print(5 == 5) # prints False
+print(5 == 6) # prints False
 print(not True) # prints False
 print(2 > 1 and 5 >= 5) # prints True
 print(2 < 1 and 5 >= 5) # prints False

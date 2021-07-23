@@ -192,3 +192,23 @@ print(map(my_abs, [1, -1, -10, 0, 100]))
 # factorial(5) should output 120.
 # Bonus: factorial(0) should output 1.
 # Bonus: factorial of a negative number should raise a ValueError.
+
+
+
+
+
+
+# Solution (only look after you've made a valiant effort):
+
+def factorial(n):
+    if n < 0:
+        raise ValueError("You cannot take the factorial of a negative number")
+
+    count = 1
+    product = 1
+
+    while count <= n:
+        product = product * count
+        count = count + 1
+
+    return product

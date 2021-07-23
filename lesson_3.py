@@ -16,6 +16,8 @@ fibonacci_numbers = [0, 1, 1, 2, 3, 5, 8, 13]
 fibonacci_numbers_even = [True, False, False, True, False, False, True, False]
 random_items = ["hello", 7, 3.14, "c", True]
 
+extra = ["data", 5, [2, 3, 4, [3, 4, 5]], True]
+
 
 # Lists are just variables, meaning they can also be used in expressions.
 # How do we get things out of lists?

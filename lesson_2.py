@@ -1,7 +1,7 @@
 
 # Week 2
 
-# What would make our programs better? Decisions!
+# What can we make our programs better? Decisions!
 # How do computers make decisions?
 
 
@@ -29,6 +29,13 @@ won_string = input()
 if won_string == "yes":
     print("yay!")
 
+
+user = input()
+
+if user == "keep":
+    print(f"{word1} {word2}")
+else:
+    print("invalid input")
 
 
 # Well, what if we want to print something if they lose? We can add an else to do that.
@@ -92,11 +99,11 @@ else:
 # Write a simple chatbot. You can support whatever commands you like.
 # Here's a sample of how it could work:
 
-# Hi, I'm Mr. Chips, the chatbot! I can reverse phrases or keep them the same!
-# Which would you like to do ("keep" or "reverse")?
-# reverse
+# Hi, I'm Mr. Chips, the chatbot! I can reverse 2-word phrases or keep them the same!
+# Which would you like to do ('keep' or 'reverse')?
+# > reverse
 # What's the first word in your phrase?
-# Hello
+# > Hello
 # What's the second word in your phrase?
-# World
+# > World
 # Your output is: World Hello
