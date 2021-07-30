@@ -33,7 +33,7 @@ grocery_list = ["bananas", "apples", "apples", "bananas", "porcupines"]
 count = 0
 
 for item in grocery_list:
-    if item == "apples":
+    if item == "bananas":
         count = count + 2
 
 # Sensational!
@@ -121,6 +121,8 @@ def apples_counter_in_list(grocery_list):
 
     return count
 
+apples_counter_in_list(["apples", "cucumbers", "apples", "apples"])
+
 # Now we can count the number of apples in any list!
 
 print(apples_counter_in_list(["apples", "apples", "apples", "apples"]))
@@ -144,6 +146,8 @@ def items_counter_in_list(grocery_list, word_to_count):
 
 # Wait...
 # Our code already works for that!
+
+
 
 # Our items_counter_in_list function is way more flexible than the apples_counter!
 # It solves so many problems!
@@ -190,8 +194,65 @@ print(map(my_abs, [1, -1, -10, 0, 100]))
 # factorial(3) should output 6.
 # factorial(4) should output 24.
 # factorial(5) should output 120.
+# etc.
 # Bonus: factorial(0) should output 1.
 # Bonus: factorial of a negative number should raise a ValueError.
+
+
+def anything(num):
+    i = 0
+    product = 1
+    
+    while i < num:
+        i = i + 1
+        product = i * product
+        
+
+    return product
+        
+
+
+# factorial(6) = 6 * 5 * 4 * 3 * 2 * 1 = 720
+
+def factorial(num):
+    count = 1
+    ans = 1
+        
+    while count <= num:
+        ans = count * ans
+        count = count + 1
+        
+    return ans
+            
+    
+     
+
+
+def factorial(num):
+    if num == 0:
+        return 1
+    return num* factorial(num-1)
+
+from functools import reduce
+
+def factorial(num):
+    return reduce(range(1, num), lambda x, y: x * y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
