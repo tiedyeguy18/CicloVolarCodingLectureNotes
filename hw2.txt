@@ -1,0 +1,29 @@
+In this assignment, you will write a program that always wins in the game “rock, paper, scissors.”
+
+The purpose of this assignment is to test your understanding of conditionals (if statements).
+
+Expected:
+
+Get the user to input their move.
+If the move is not allowed (not one of rock, paper, or scissors), end the program
+Beat the player by saying your move (or if you're feeling nice, let the player win every time).
+Without running the program below, make a prediction of what it prints. Put your prediction in a comment in your submission.
+
+Here's a sample of how it should work (don't worry about the exact wording):
+
+Welcome to rock, paper, scissors! Make your play.
+> rock
+I play paper, I win!
+
+For number 4:
+
+for i in range(10):
+    print(i)
+
+More advanced (in increasing level of difficulty):
+
+Add more than just rock, paper, scissors: https://cjleo.com/2020/05/25/why-we-dont-play-rock-paper-scissors-lizard-spock/.
+Play randomly.
+Keep asking for input until the user says one of the valid options.
+Implement some kind of prediction. If I play only paper against your program for a while, I should start losing.
+Use an image processing library to detect rock, paper or scissors from a live video feed

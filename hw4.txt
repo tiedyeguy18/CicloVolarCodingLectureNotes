@@ -1,0 +1,35 @@
+In this assignment, you will practice encapsulating programs you know how to write into functions.
+
+The purpose of this assignment is to test your understanding of functions and why they are useful.
+
+Expected:
+
+Redo the previous weeks' assignments and make them use functions as you see fit.
+Call each of your newly made functions with multiple inputs and ensure they give the correct result.
+Answer the following question in a comment: “Do you think your code is more useful now that it's in a function? Why or why not?"
+The purpose of the function below is to produce a sorted a list of numbers without modifying the given list. Does this function fulfill its purpose successfully? How do you know? How could you find out? (Hint: you don't have to understand the function.)
+
+def bubble(ls):
+    ls = ls[:]
+
+    for i in range(len(ls)):
+        for j in range(len(ls) - i):
+            if j + 1 < len(ls) and ls[j] > ls[j + 1]:
+                ls[j], ls[j + 1] = ls[j + 1], ls[j]
+
+    return ls
+
+More advanced (in increasing level of difficulty):
+
+Write a function that converts between Mexican pesos and US dollars, in either direction.
+Write a function that converts between miles and kilometers, in either direction.
+Write a function that uses user input to choose what units to convert between and gets the value of the conversion (combine [1] and [2]).
+Write a function that makes a number you give it into a binary string or list.
+Go back to week 3 and do some of the “extra loop practice" as functions.
+Implement merge sort.
+Write a function that takes the derivative of a function at a given number.
+Write a function that takes a function and two other arguments, and applies those arguments on the function, but flipped (e.g. your_func(lambda x, y: x - y, 5, 3) → -2).
+Write a function that returns a function that adds a given number to its argument (e.g. your_func(5)(6) → 11).
+Implement parts of lambda calculus.
+Learn Haskell, Mercury and/or Clean. If you do multiple, write an impassioned essay about which is the best or how much better you like functional programming.
+Write a unique and useful combinator.

@@ -1,0 +1,36 @@
+In this assignment, you will write a program to take a customer's order at a restaurant.
+
+The purpose of this assignment is to test your understanding of variables, printing (with formatting), and taking user input.
+
+Expected:
+
+Introduce yourself as their waiter.
+Ask what your customer wants to eat.
+Ask how much their item costs.
+Repeat back to them what they ordered and how much they owe you.
+Without running the program below, make a prediction of what it prints. Put your prediction in a comment in your submission (start the line with a #).
+
+Here's a sample of how it should work (don't worry about the exact wording):
+
+Hi, my name is Jamin and I'll be your waiter for tonight. What can I get you started with?
+Hamburger
+Alright, and how many dollars does that cost?
+7
+Sounds good. You ordered a Hamburger, so your total is $7.
+
+For number 5:
+
+if 5 < 3:
+    print("success")
+else:
+    print("failure")
+
+More advanced (in increasing level of difficulty):
+
+Apply a 7% tax to what they owe.
+Ask what percent they would like to tip, then change their total accordingly.
+Reject bad input (non-numbers or negative numbers)
+Implement a menu (so instead of asking the customer for the price, you look up the price of their item on the menu). If their item is not on the menu, quit.
+Keep asking for the customer's input if they say an invalid number or menu item.
+Take the orders of a table of customers, then give what they ordered and their total.
+Make an industrial restaurant management system.

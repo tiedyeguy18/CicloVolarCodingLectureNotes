@@ -1,0 +1,52 @@
+In this assignment, you will bring together your knowledge of programming thus far into a function of your own design.
+
+The purpose of this assignment is showing off what you have learned in this course.
+
+There's a lot of moving parts in this assignment, so don't hesitate to ask questions! I'd hate for you to have a cool idea that you don't get to implement because there's not enough time.
+
+Expected:
+
+Write a function that allows the user to play a sub-adventure of your choice and design.
+Write a string that represents what your sub-adventure is and put it in a variable. If you want to hide what your sub-adventure actually is, put something like "continue along the path."
+
+You can view and change the state of the game through the following functions:
+
+game.get_name() gets the name of the player
+game.get_money() gets the amount of money the player has left
+game.change_money(amount) changes the amount of money the player has by the given amount
+game.get_stamina() gets the amount of stamina the player has left
+game.change_stamina(amount) changes the amount of stamina the player has by the given amount
+game.get_distance_left() gets the amount of distance the player has left to reach their destination
+game.change_distance_left(amount) changes the amount of distance the player has left by the given amount
+str(game) gets a string that looks like the following, but with the correct values for the player
+
+Money: $100
+Stamina: 120
+Distance left: 20 km
+
+Your function must obey the following rules.
+
+You may not end the program.
+You may not increase or decrease the user's stamina by more than 5.
+You may not change the user's money by more than 15.
+You may not change the distance left by more than 10.
+If you use libraries, make sure they are built into Python (or email me if you want to include a non-builtin) and they are imported at the top of your code.
+You may not define events that could be triggered at a later time.
+You may not do file I/O.
+You may not attempt to get around these rules using code.
+
+These constraints are in place so that I don't have to change people's code in order to get the project as a whole to work as a balanced game. If you'd like to break a rule, email me or come to QC and we'll discuss.
+
+To get an idea of how the larger program works: 
+
+The player is asked to input their name.
+The morning starts. The player is presented with 2 strings representing 2 sub-adventures. They choose 1.
+The sub-adventure is played.
+The afternoon starts. The player is presented with 2 strings representing 2 sub-adventures. They choose 1.
+The sub-adventure is played.
+The player goes to sleep, wakes up, and goes to step 2.
+This happens until the player's stamina is zero (they lose) or their distance left is zero (they win).
+
+More advanced:
+
+Make your sub-adventure better!

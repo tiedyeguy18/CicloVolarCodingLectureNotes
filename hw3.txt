@@ -1,0 +1,70 @@
+In this assignment, you will write a program that converts words the user enters into Pig Latin.
+
+The purpose of this assignment is to test your understanding of loops (for/while) and list indexing with square brackets ([]).
+
+If you are unfamiliar with Pig Latin, it is a silly English adaptation where the first sound of a word is moved to the end of the word, and an “ay” sound is added to it. For example:
+
+“loop” → “ooplay”
+“words” → “ordsway”
+“nix” → “ixnay” (as in https://getyarn.io/yarn-clip/c5804812-f70d-4182-9935-6e69136071ef))
+
+Expected:
+
+Print a prompt to tell the user how to use your program.
+Get a word as input from the user.
+Convert that word into Pig Latin by moving the first letter to the end of the word and adding “ay”
+Print the word in Pig Latin.
+Keep asking for words to convert until the user enters “quit”
+Without running the program below, make a prediction of what it prints. Put your prediction in a comment in your submission.
+
+Here's a sample of how it should work (don't worry about the exact wording):
+
+elcomeway otay ymay igpay atinlay ranslatortay
+leasepay ntereay aay ordway otay ebay ranslatedtay:
+> loop
+ooplay
+leasepay ntereay notheraay ordway:
+> words
+ordsway
+leasepay ntereay notheraay ordway:
+> nix
+ixnay
+leasepay ntereay notheraay ordway:
+quit
+
+For number 6:
+
+def f(x):
+    return 2 ** x - 1
+
+print(f(1))
+print(f(2))
+print(f(5))
+
+More advanced (in increasing level of difficulty):
+
+Rewrite your code using for loops where you used while loops and vice versa.
+Make an “un-pig-latin-ator” that does the same thing, but the opposite direction (e.g. “ixnay” → “nix”).
+Preserve capitalization. If a word is capitalized to begin with, uncapitalize the letter you move to the end, and capitalize the new first letter.
+Make your translator work on multiple words at a time, separated by spaces (e.g. “cellar door” → “ellercay oorday”).
+Make your translator move the entire first sound of the word, not just the letter, to the end. This can be accomplished by moving the first group of adjacent consonants to the end (e.g. “program” → “ogrampray” and “schnapps” → “appsschnay”).
+Use Google's translation API to translate between the detected language and a specified language. See if you can get them to register Pig Latin as a language too.
+
+More optional loop practice (because loops are hard):
+
+Get every other letter in a word.
+Increase every number in a list by 1,
+Make a list that is the length of every string in a given list (e.g. ["a", “an”, “the”, “supercalifragilisticexpialidocious”] → [1, 2, 3, 34]).
+Make a list with all of the “apples” listed in a given grocery list gone (e.g. ["apples", “bananas”, “apples”, “carrots”, “apples”] → [“bananas”, “carrots”]
+Get the sum of a list of numbers.
+Get the mean, median, mode, and standard deviation for a list of numbers.
+Get the result of combining a given list of strings together (e.g. ["hello", “there”, “how”, “are”, “you”] → “hellotherehowareyou”).
+Get the reverse of a given list.
+Determine whether a string is a palindrome.
+Think of something that would take you a long time. Write a loop to do it.
+More advanced (in increasing level of difficulty):
+
+Sort a list (look up a sorting algorithm and implement it).
+Search for a value quickly in a sorted list.
+Implement map, filter, and foldr.
+Implement map and filter in terms of foldr.
